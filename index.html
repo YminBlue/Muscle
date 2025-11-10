@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Muscular System — Interactive Sytem.Home</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="brand">
+        <div class="logo">MS</div>
+        <div>
+          <h1>Muscular System</h1>
+          <div style="font-size:12px; color:var(--muted)">Learn About Muscular System</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="shoulder.html">Shoulder</a>
+        <a href="biceps.html">Biceps</a>
+        <a href="triceps.html">Triceps</a>
+        <a href="trapezius.html">Trapezius</a>
+        <a href="chest.html">Chest</a>
+        <a href="forearm.html">Forearm</a>
+        <a href="abs.html">Abs</a>
+        <a href="quadriceps.html">Quadriceps</a>
+        <a href="hamstrings.html">Hamstrings</a>
+        <a href="calves.html">Calves</a>
+        <a href="back.html">Back</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-card">
+        <h2>Learn:</h2>
+        <p>The muscular system enables movement, maintains posture, and supports breathing and circulation. Pick any muscle below to learn its function, role in movement, and see a reference image.</p>
+
+        <div class="grid" style="margin-top:16px;">
+          
+          <a class="card" href="shoulder.html">
+            <img src="images/shoulder.jpg" alt="Shoulder  ">
+            <h3>Shoulder</h3>
+            <p>Shoulder muscles that power lifting and rotation of the arm.</p>
+          </a>
+
+          <a class="card" href="biceps.html">
+            <img src="images/biceps.jpg" alt="Biceps">
+            <h3>Biceps</h3>
+            <p>Located at front of upper arm — key for elbow flexion and forearm rotation.</p>
+          </a>
+
+          <a class="card" href="triceps.html">
+            <img src="images/triceps.jpg" alt="Triceps">
+            <h3>Triceps</h3>
+            <p>Back of the upper arm — extends the elbow and supports pushing movements.</p>
+          </a>
+
+          <a class="card" href="trapezius.html">
+            <img src="images/trapezius.jpg" alt="Trapezius">
+            <h3>Trapezius</h3>
+            <p>Upper back muscle that moves and stabilizes shoulder blades.</p>
+          </a>
+
+          <a class="card" href="chest.html">
+            <img src="images/chest.jpg" alt="Chest Major">
+            <h3>Chest Muscle</h3>
+            <p>Chest muscle important for pushing actions and assisting breathing.</p>
+          </a>
+
+          <a class="card" href="forearm.html">
+            <img src="images/forearm.png" alt="Forearm Muscles">
+            <h3>Forearm Muscles</h3>
+            <p>Control wrist and finger motion, grip strength, and fine motor tasks.</p>
+          </a>
+
+          <a class="card" href="abs.html">
+            <img src="images/abs.jpg" alt="Abs Muscles">
+            <h3>Abs Muscles</h3>
+            <p> Core muscles that support posture, balance, and breathing.</p>
+          </a>
+
+          <a class="card" href="quadriceps.html">
+            <img src="images/quadriceps.jpg" alt="Quadriceps">
+            <h3>Quadriceps</h3>
+            <p>Front thigh muscles — primary for extending the knee and powerful walking/running.</p>
+          </a>
+
+          <a class="card" href="hamstrings.html">
+            <img src="images/hamstring.jpg" alt="Hamstrings">
+            <h3>Hamstrings</h3>
+            <p>Back of the thigh — bends the knee and extends the hip for running/jumping.</p>
+          </a>
+
+          <a class="card" href="calves.html">
+            <img src="images/calves.jpg" alt="Calves Muscles">
+            <h3>Calves Muscles</h3>
+            <p>Gastrocnemius and soleus power standing on tiptoes and running propulsion.</p>
+          </a>
+
+          <a class="card" href="back.html">
+            <img src="images/back.gif" alt="Back Muscles">
+            <h3>Back Muscles</h3>
+            <p>Support posture and lifting — includes latissimus dorsi and rhomboids.</p>
+          </a>
+        </div>
+      </div>
+
+      <!--don't forger to make a quick link-->
+      <aside style="padding:18px; align-self:start;">
+        <div style="background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); padding:18px; border-radius:12px; border:1px solid rgba(255,255,255,0.03);">
+          <h3 style="color:white; margin-top:0">Quick Click If Your Too Lazy To Scroll.</h3>
+          <div style="display:flex;flex-direction:column; gap:8px;">
+            <a href="hamstrings.html" style="color:var(--muted); text-decoration:none;">Hamstrings</a>
+            <a href="calves.html" style="color:var(--muted); text-decoration:none;">Calves</a>
+            <a href="quadriceps.html" style="color:var(--muted); text-decoration:none;">Quadriceps</a>
+            <a href="back.html" style="color:var(--muted); text-decoration:none;">Back Muscles</a>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <footer class="site-footer">
+      © <span id="year"></span> Vimar Gaelon, Muscular System 
+    </footer>
+  </div>
+
+  <script>
+    
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
